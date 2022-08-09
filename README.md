@@ -2,7 +2,7 @@
 
 <p align="center">⚡ HTML ⚡ CSS ⚡ SCSS ⚡ JavaScript ⚡ TypeScript ⚡ Node.js ⚡ Deno ⚡ Angular ⚡ Vue ⚡ React ⚡</p>
 
-<p align="center">🍀 Java 🍀 Rust 🍀 Go 🍀 Swift 🍀 Python 🍀 Ruby on Rails 🍀 PHP 🍀 Perl 🍀</p>
+<p align="center">🍀 Java 🍀 Rust 🍀 Go 🍀 Zig 🍀 Swift 🍀 Python 🍀 Ruby 🍀 PHP 🍀 Perl 🍀</p>
 
 <p align="center">☁️ Docker ☁️ Kubernetes ☁️ Terraform ☁️</p>
 
