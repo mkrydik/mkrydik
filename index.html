@@ -8,25 +8,8 @@
     <script src="https://cdn.jsdelivr.net/npm/marked@1.2.5/marked.min.js"></script>
     <style>
 
-@font-face {
-  font-family: "Yu Gothic";
-  src: local("Yu Gothic Medium"),local("YuGothic-Medium");
-}
-
-@font-face {
-  font-family: "Yu Gothic";
-  src: local("Yu Gothic Bold"), local("YuGothic-Bold");
-  font-weight: bold;
-}
-
-*, ::after, ::before {
-  box-sizing: border-box;
-}
-
 html {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Noto Sans JP", "Noto Sans CJK JP", YuGothic, "Yu Gothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-decoration-skip-ink: none;
-  -webkit-text-decoration-skip: objects;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
   line-height: 1.7;
   overflow-y: scroll;
   cursor: default;
@@ -41,6 +24,7 @@ h1 {
 h1 a {
   color: inherit;
   text-decoration: none;
+  transition: color .12s;
 }
 
 h1 a:hover {
@@ -63,18 +47,18 @@ h1 a:hover {
     </style>
     <script>
 
-try {
-  document.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener('DOMContentLoaded', async () => {
+  try {
     const response = await fetch('https://mkrydik.github.io/mkrydik/README.md');
     const text = await response.text();
     const contentsElement = document.getElementById('contents');
     contentsElement.innerHTML = marked(text);
     contentsElement.classList.add('loaded');
-  });
-}
-catch(error) {
-  console.error(error);  // Do Nothing
-}
+  }
+  catch(error) {
+    console.error('Error :', error);  // Do Nothing
+  }
+});
 
     </script>
   </head>
