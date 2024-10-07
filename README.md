@@ -4,6 +4,6 @@
 
 <p align="center">🍀 Java 🍀 C# 🍀 <a href="https://github.com/mkrydik/rust-for-told">Rust</a> 🍀 <a href="https://github.com/mkrydik/go-lang-no-sponsors">Go</a> 🍀 <a href="https://github.com/mkrydik/zig-zag">Zig</a> 🍀 Swift 🍀 <a href="https://github.com/mkrydik/random-word-generator">Python</a> 🍀 <a href="https://github.com/mkrydik/list-linguist-languages">Ruby</a> 🍀 PHP 🍀 Perl 🍀</p>
 
-<p align="center">☁️ Docker ☁️ <a href="https://github.com/mkrydik/example-kafdrop-on-kubernetes">Kubernetes</a> ☁️ Terraform ☁️</p>
+<p align="center">☁️ <a href="https://github.com/mkrydik/mastodon-docker-compose">Docker</a> ☁️ <a href="https://github.com/mkrydik/example-kafdrop-on-kubernetes">Kubernetes</a> ☁️ Terraform ☁️</p>
 
 <p align="center">📂 <a href="https://github.com/mkrydik/bash-gas-explosion">Bash</a> 📂 PowerShell 📂 Oracle Database 📂 <a href="https://github.com/mkrydik/example-pgweb-on-kubernetes">PostgreSQL</a> 📂 SQLite 📂</p>
